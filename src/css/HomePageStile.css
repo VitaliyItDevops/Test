@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1A1A1D;
+    color: white;
+}
+
+h1{
+    color: #116466;
+    font-size: large;
+    padding: 20px;
+    font-size: medium;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#balance{
+    font-size:x-large;
+    font-size: medium;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.HomePage{
+    display: flex;
+    background-color: #D9B08C;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttomTrans{
+    display: flex;
+    margin-top: 7%;
+    width: 100%;
+    justify-content: space-between;
+}
+.buttomHome{
+    display: flex;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttomHomeImg{
+    padding: 0;
+    object-fit: contain;
+    max-width: 100%;
+    width: 30%;
+}
+.TextButtomHome{
+    margin-top: 10%;
+    font-size: 80%;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.crypto-coin{
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    background-color: #1d2525;
+    margin: 1%;
+    display: flex;
+    width: 100%;
+    padding: 3%;
+    align-items: center;
+
+}
